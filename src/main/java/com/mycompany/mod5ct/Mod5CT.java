@@ -33,9 +33,11 @@ public class Mod5CT {
         
         int numToAdd = 5;
         
-        System.out.println("Enter " + numToAdd + 
-                " numbers to be added together:");
+        System.out.println("ENTER " + numToAdd + 
+                " NUMBERS TO ADD TOGETHER");
         int result = calculateSum(numToAdd, scanner);
         System.out.println("Sum: " + result);
+        
+        scanner.close();
     }
 }
